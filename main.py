@@ -9,7 +9,7 @@ from time import time
 import json
 sciencebot = ChatBot("Science Bot", read_only = False)
 trainBot = ChatterBotCorpusTrainer(sciencebot)
-trainBot.train ("chatterbot.corpus.english.science")
+trainBot.train ("chatterbot.corpus.english.science","data-corpus.yml")
 
 
 ############################################################
